@@ -1,4 +1,5 @@
-import logo from "./logo.svg";
+
+
 import "./App.css";
 import MilkingTracker from "./components/Milking-Tracker";
 import Home from "./components/Home";
