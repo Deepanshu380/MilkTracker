@@ -12,12 +12,7 @@ import Timer from "./components/Timer";
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <Home />
-        <History />
-        <MilkingTracker />
-
-      </header> */}
+  
       <div>
         <Navbar />
         <Routes>

@@ -14,10 +14,13 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg custom-navbar-bg py-3" data-bs-theme="light">
+      <nav
+        className="navbar navbar-expand-lg custom-navbar-bg py-3"
+        data-bs-theme="light"
+      >
         <div className="container-fluid">
           <Link to="/" className="navbar-brand fs-4" onClick={closeNav}>
-            <b class="mx-2">Milk Tracker</b>
+            <b class="mx-2" >Animall</b>
           </Link>
           <button
             className="navbar-toggler"
@@ -30,15 +33,21 @@ const Navbar = () => {
             className={`collapse navbar-collapse ${isNavOpen ? "show" : ""}`}
           >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <Link to="/" className="nav-link" style={{ textDecoration: "none" }} onClick={closeNav}>
-                <li className="nav-item">
-                  Home
-                </li>
+              <Link
+                to="/"
+                className="nav-link"
+                style={{ textDecoration: "none" }}
+                onClick={closeNav}
+              >
+                <li className="nav-item">Home</li>
               </Link>
-              <Link to="/history" className="nav-link" style={{ textDecoration: "none" }} onClick={closeNav}>
-                <li className="nav-item">
-                  History
-                </li>
+              <Link
+                to="/history"
+                className="nav-link"
+                style={{ textDecoration: "none" }}
+                onClick={closeNav}
+              >
+                <li className="nav-item">History</li>
               </Link>
             </ul>
           </div>
