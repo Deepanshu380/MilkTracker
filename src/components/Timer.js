@@ -96,12 +96,12 @@ const Timer = () => {
   };
 
   const handleStop = () => {
-    console.log(format(time));
+   // console.log(format(time));
     const endTime = getCurrentTime();
-    console.log(totalTime(time));
+   // console.log(totalTime(time));
     const milkQuantity = prompt("Enter the quantity of milk");
 
-    console.log("Start Time", startTime, " ", "End Time", endTime);
+   // console.log("Start Time", startTime, " ", "End Time", endTime);
 
     if (milkQuantity) {
       const data = {
