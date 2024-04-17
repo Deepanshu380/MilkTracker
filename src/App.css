@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.custom-navbar-bg {
+  background-color: #D3D3D3; /* Dark grey color */
+}
+
+.responsive-font {
+  font-size: 4.5rem; /* Default font size */
+}
+
+@media screen and (max-width: 576px) {
+  /* Extra small devices (phones) */
+  .responsive-font {
+      font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  /* Small devices (tablets) */
+  .responsive-font {
+      font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* Medium devices (desktops, laptops) */
+  .responsive-font {
+      font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* Large devices (large desktops) */
+  .responsive-font {
+      font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* Extra large devices (extra large desktops) */
+  .responsive-font {
+      font-size: 4.5rem;
+  }
+}
+
