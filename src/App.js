@@ -2,7 +2,7 @@
 
 import "./App.css";
 import MilkingTracker from "./components/Milking-Tracker";
-import Home from "./components/Home";
+
 import History from "./components/History";
 import Navbar from "./components/Navbar";
 import { useState } from "react";
